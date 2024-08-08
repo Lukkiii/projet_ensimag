@@ -6,9 +6,7 @@ Afin d'utiliser le compilateur Deca, il est nécessaire d'ajouter d'abord le che
 
 La syntaxe d’utilisation de l’exécutable decac est : 
 decac [[-p | -v] [-n] [-r X] [-d]* [-P] [-w] [-arm]<fichier deca>...] | [-b] avec <fichier deca> des chemins de la forme <répertoires/nom.deca> (le suffix .deca est obligatoire). Le résultat <répertoires/nom.ass> est dans même répertoire que le fichier source.  
-- La commande decac, sans argument, affichera les options disponibles. On peut appeler la commande decac avec un ou plusieurs fichiers sources Deca.  
-- Si un fichier apparaît plusieurs fois sur la ligne de commande, il n’est compilé qu’une seule fois.  
-- Une fois le fichier assembleur généré, il vous suffit d'utiliser la commande "ima" pour l'exécuter.
+- La commande decac, sans argument, affichera les options disponibles. On peut appeler la commande decac avec un ou plusieurs fichiers sources Deca.
 
 |                           |                    |                            |
 |---------------------------|--------------------|----------------------------|
@@ -20,6 +18,9 @@ decac [[-p | -v] [-n] [-r X] [-d]* [-P] [-w] [-arm]<fichier deca>...] | [-b] ave
 |-d|(debug)|active les traces de debug. Répéter l'option plusieurs fois pour avoir plus de traces|
 |-P|(parallel)|s'il y a plusieurs fichiers sources, lance la compilation des fichiers en parallèle (pour accélérer la compilation)|
 |-arm|(arm)|Compilation pour ARM|
+
+- Si un fichier apparaît plusieurs fois sur la ligne de commande, il n’est compilé qu’une seule fois.  
+- Une fois le fichier assembleur généré, il vous suffit d'utiliser la commande "ima" pour l'exécuter.
 
 ## Extension ARM
 ### How to create the environment on Ubuntu
