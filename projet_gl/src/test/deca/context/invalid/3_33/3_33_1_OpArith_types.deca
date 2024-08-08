@@ -1,0 +1,16 @@
+// Description:
+//    Problème de typage
+//
+// Resultats:
+//    Ligne 15: The type is not integer or float
+// 
+// Historique:
+//    cree le 01/01/2024
+
+{
+   boolean a;
+   float b;
+
+   // Doit etre refuse.
+   a + b;
+}

@@ -1,0 +1,11 @@
+// Description:
+//    Programme déclaration de variable de type boolean
+//
+// Resultats:
+//
+// Historique:
+//    cree le 09/01/2024
+
+{
+        boolean var3;
+}

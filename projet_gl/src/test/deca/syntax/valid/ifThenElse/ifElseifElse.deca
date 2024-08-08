@@ -1,0 +1,33 @@
+// Description:
+//    test parser for if elseif else.
+//
+// Resultats:
+//    `> [25, 0] Program
+//       +> ListDeclClass [List with 0 elements]
+//       `> [25, 0] Main
+//          +> ListDeclVar [List with 0 elements]
+//          `> ListInst [List with 1 elements]
+//             []> [26, 4] IfThenElse
+//                 +> [26, 7] BooleanLiteral (true)
+//                 +> ListInst [List with 1 elements]
+//                 |  []> [27, 8] StringLiteral (ok)
+//                 `> ListInst [List with 1 elements]
+//                    []> IfThenElse
+//                        +> [28, 13] BooleanLiteral (false)
+//                        +> ListInst [List with 1 elements]
+//                        |  []> [29, 8] StringLiteral (ko)
+//                        `> ListInst [List with 1 elements]
+//                           []> [30, 8] StringLiteral (?)
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    if(true){
+        "ok";
+    }else if(false){
+        "ko";
+    }else{
+        "?";
+    }
+}

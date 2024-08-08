@@ -1,0 +1,27 @@
+// Description:
+//    test parser for DeclClass (extends).
+//
+// Resultats:
+//    `> [24, 0] Program
+//      +> ListDeclClass [List with 4 elements]
+//      |  []> [24, 6] DeclClass
+//      |  ||  +> [24, 6] Identifier (test)
+//      |  ||  +> Identifier (Object)
+//      |  []> [25, 6] DeclClass
+//      |  ||  +> [25, 6] Identifier (test1)
+//      |  ||  +> [25, 20] Identifier (test)
+//      |  []> [26, 6] DeclClass
+//      |  ||  +> [26, 6] Identifier (test2)
+//      |  ||  +> [26, 20] Identifier (test1)
+//      |  []> [27, 6] DeclClass
+//      |      +> [27, 6] Identifier (test3)
+//      |      +> [27, 20] Identifier (test2)
+//      `> EmptyMain
+//
+// Historique:
+//    cree le 13/01/2024
+
+class test{}
+class test1 extends test{}
+class test2 extends test1{}
+class test3 extends test2{}

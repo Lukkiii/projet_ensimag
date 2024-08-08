@@ -1,0 +1,15 @@
+// Description:
+//    Problème de déclaration de paramètre de type void
+//
+// Resultats:
+//    Ligne 13: Error : compatibility for assignment
+// 
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    boolean param1;
+    int fieldOne(int param1, boolean param2, boolean param3){
+        this.param1 = param1;
+    }
+}

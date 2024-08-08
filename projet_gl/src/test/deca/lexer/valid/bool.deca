@@ -1,0 +1,12 @@
+// Description:
+//    test lexer for the booleans.
+//
+// Resultats:
+//    FALSE: [@0,197:201='false',<15>,11:0]
+//    TRUE: [@1,203:206='true',<4>,12:0]
+//
+// Historique:
+//    cree le 09/01/2024
+
+false
+true

@@ -1,0 +1,14 @@
+// Description:
+//    Programme minimaliste faisant des opérations arithmétiques entre floats
+//
+// Resultats:
+//    3.75000e+00
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        float b = 1.5 * 2.5;
+
+        println(b);
+}

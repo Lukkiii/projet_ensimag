@@ -1,0 +1,12 @@
+// Description:
+//    Problème de compatibilité de typage pour l'assignation
+//
+// Resultats:
+//    Ligne 12: The types are not the same
+// 
+// Historique:
+//    cree le 24/12/2023
+
+{   
+   int a = "Salut";
+}

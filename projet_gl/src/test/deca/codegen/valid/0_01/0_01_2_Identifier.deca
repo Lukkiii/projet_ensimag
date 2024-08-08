@@ -1,0 +1,17 @@
+// Description:
+//    Programme test si l'identifier non déclaré est détecté
+//
+// Resultats:
+//    14
+// 
+// Historique:
+//    cree le 09/01/2024
+
+{   
+   int a = 14;
+   int b;
+   
+   b = a;
+
+   print(b);
+}

@@ -1,0 +1,12 @@
+// Description:
+//    Programme test si un boolean est donné dans condition: false
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 09/01/2024
+
+{
+        if (false) {};
+}

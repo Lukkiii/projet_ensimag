@@ -1,0 +1,10 @@
+// Description:
+//    test lexer for a string.
+//
+// Resultats:
+//    STRING: [@0,115:117='"a"',<46>,10:0]
+//
+// Historique:
+//    cree le 10/01/2024
+
+"a"

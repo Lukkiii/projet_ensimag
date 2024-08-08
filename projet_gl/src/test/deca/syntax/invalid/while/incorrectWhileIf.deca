@@ -1,0 +1,16 @@
+// Description:
+//    invalid test parser for while if.
+//
+// Resultats:
+//    ligne 14 : no viable alternative at input '}'.
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    while(true){
+        if(true){
+            "ok"
+        }
+    }
+}

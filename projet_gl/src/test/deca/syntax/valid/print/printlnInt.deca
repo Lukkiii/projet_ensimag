@@ -1,0 +1,19 @@
+// Description:
+//    test parser for println.
+//
+// Resultats:
+//    `> [17, 0] Program
+//      +> ListDeclClass [List with 0 elements]
+//      `> [17, 0] Main
+//         +> ListDeclVar [List with 0 elements]
+//         `> ListInst [List with 1 elements]
+//            []> [18, 4] Println
+//                `> ListExpr [List with 1 elements]
+//                   []> [18, 12] Int (1)
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    println(1);
+}

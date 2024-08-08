@@ -1,0 +1,16 @@
+// Description:
+//    Problème de typage, il ne faut que des entiers pour une division euclidienne
+//
+// Resultats:
+//    Ligne 15: The type is not int
+// 
+// Historique:
+//    cree le 22/12/2023
+
+{
+   int a;
+   float b;
+
+   // Doit etre refuse.
+   a % b;
+}

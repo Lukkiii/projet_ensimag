@@ -1,0 +1,29 @@
+// Description:
+//    test parser for while if.
+//
+// Resultats:
+//    `> [23, 0] Program
+//       +> ListDeclClass [List with 0 elements]
+//       `> [23, 0] Main
+//          +> ListDeclVar [List with 0 elements]
+//          `> ListInst [List with 1 elements]
+//             []> [24, 4] While
+//                 +> [24, 10] BooleanLiteral (true)
+//                 `> ListInst [List with 1 elements]
+//                    []> [25, 8] IfThenElse
+//                        +> [25, 11] BooleanLiteral (true)
+//                        +> ListInst [List with 1 elements]
+//                        |  []> [26, 12] StringLiteral (ok)
+//                        `> ListInst [List with 1 elements]
+//                           []> NoOperation
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    while(true){
+        if(true){
+            "ok";
+        }
+    }
+}

@@ -1,0 +1,13 @@
+// Description:
+//    test lexer for multi line string.
+//
+// Resultats:
+//    MULTI_LINE_STRING: [@0,124:153='"this\nin a \nmulti-line\nstring"',<47>,10:0]
+//
+// Historique:
+//    cree le 10/01/2024
+
+"this
+in a 
+multi-line
+string"

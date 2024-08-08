@@ -1,0 +1,27 @@
+// Description:
+//    
+//
+// Resultats:
+//    Error : is not a subtype
+//
+// Historique:
+//    cree le 19/01/2024
+
+class A{
+    protected int x;
+}
+
+class B extends A {
+    int b = 0;
+    int getX(A a) {
+        return a.x; 
+    }
+}
+
+class X {
+    void m() {
+        A a = new A();
+        B b = new B();
+        println(b.getX(a));
+    }
+}

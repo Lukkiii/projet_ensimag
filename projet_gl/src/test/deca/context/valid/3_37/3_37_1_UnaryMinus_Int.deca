@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste faisant un calcul du moins unitaire: Int
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 24/12/2023
+
+{
+        int a = 3;
+        -a;
+}

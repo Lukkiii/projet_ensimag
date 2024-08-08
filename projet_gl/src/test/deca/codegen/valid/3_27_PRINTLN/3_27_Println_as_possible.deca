@@ -1,0 +1,56 @@
+// Description:
+//    tests Print all
+//
+// Resultats:
+//    J'ai 21 ans
+//    1
+//    1
+//    2
+//    2
+//    1
+//    1.00000e+00
+//    1
+//    1
+//    1
+//    1
+//    1
+//    1
+//    0
+//    1
+//    1
+//    1
+//    1
+// 
+// Historique:
+//    cree le 10/01/2024
+
+class A {
+    int x = 1;
+
+    int getX() {
+        return this.x;
+    }
+}
+
+{   
+    A a = new A();
+
+    println("J'ai ", 21, " ans");
+    println(3-2);
+    println(1*1);
+    println(1+1);
+    println(4/2);
+    println(1);
+    println(1.0);
+    println(1.0 > 0.0);
+    println(1.0 >= 0.0);
+    println(1.0 < 2.0);
+    println(1.0 <= 2.0);
+    println(1.0 == 1.0);
+    println(1.0 != 2.0);
+    println(true && false);
+    println(true || false);
+    println(!false);
+    println(a.x);
+    println(a.getX());
+}

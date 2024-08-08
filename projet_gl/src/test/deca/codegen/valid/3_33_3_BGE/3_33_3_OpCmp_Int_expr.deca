@@ -1,0 +1,14 @@
+// Description:
+//    Programme minimaliste faisant des opérations de comparaison des integers
+//
+// Resultats:
+//    0
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        boolean c = (3 - 5) >= (4 * 7);
+
+        println(c);
+}

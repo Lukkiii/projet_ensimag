@@ -1,0 +1,22 @@
+// Description:
+//    test parser for boolean expression.
+//
+// Resultats:
+//   `> [20, 0] Program
+//     +> ListDeclClass [List with 0 elements]
+//     `> [20, 0] Main
+//        +> ListDeclVar [List with 1 elements]
+//        |  []> [21, 12] DeclVar
+//        |      +> [21, 12] Identifier (boolean)
+//        |      +> [21, 12] Identifier (x)
+//        |      `> [21, 16] Initialization
+//        |         `> [21, 16] Greater
+//        |            +> [21, 17] Int (10)
+//        |            `> [21, 22] Int (9)
+//        `> ListInst [List with 0 elements]
+// Historique:
+//    cree le 14/01/2024
+
+{
+    boolean x = (10 > 9);
+}

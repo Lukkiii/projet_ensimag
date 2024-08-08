@@ -1,0 +1,13 @@
+// Description:
+//    Programme faisant des assignations: Int
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 24/12/2023
+
+{
+        int a = 3;
+        int b = a;
+}

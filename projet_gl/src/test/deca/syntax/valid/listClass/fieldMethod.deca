@@ -1,0 +1,54 @@
+// Description:
+//    test parser for DeclClass (field + method).
+//
+// Resultats:
+//    `> [45, 0] Program
+//      +> ListDeclClass [List with 1 elements]
+//      |  []> [45, 6] DeclClass
+//      |      +> [45, 6] Identifier (test)
+//      |      +> Identifier (Object)
+//      |      +> ListDeclFields [List with 1 elements]
+//      |      |  []> [46, 18] DeclFields
+//      |      |      +> [46, 14] Identifier (int)
+//      |      |      +> [46, 18] Identifier (a)
+//      |      |      `> NoInitialization
+//      |      `> ListDeclMethods [List with 2 elements]
+//      |         []> [47, 4] DeclMethods
+//      |         ||  +> [47, 4] Identifier (int)
+//      |         ||  +> [47, 8] Identifier (getA)
+//      |         ||  +> ListDeclParams [List with 0 elements]
+//      |         ||  `> MethodBody
+//      |         ||     +> ListDeclVar [List with 0 elements]
+//      |         ||     `> ListInst [List with 1 elements]
+//      |         ||        []> [48, 8] Return
+//      |         ||            `> [48, 15] Identifier (a)
+//      |         []> [50, 4] DeclMethods
+//      |             +> [50, 4] Identifier (void)
+//      |             +> [50, 9] Identifier (setA)
+//      |             +> ListDeclParams [List with 1 elements]
+//      |             |  []> [50, 14] DeclParams
+//      |             |      +> [50, 14] Identifier (int)
+//      |             |      `> [50, 18] Identifier (a)
+//      |             `> MethodBody
+//      |                +> ListDeclVar [List with 0 elements]
+//      |                `> ListInst [List with 1 elements]
+//      |                   []> [51, 8] Assign
+//      |                       +> [51, 8] Selection
+//      |                       |  +> [51, 8] This : false
+//      |                       |  `> [51, 13] Identifier (a)
+//      |                       `> [51, 17] Identifier (a)
+//      `> EmptyMain
+//
+// Historique:
+//    cree le 13/01/2024
+
+class test{
+    protected int a;
+    int getA(){
+        return a;
+    }
+    void setA(int a){
+        this.a = a;
+    }
+
+}

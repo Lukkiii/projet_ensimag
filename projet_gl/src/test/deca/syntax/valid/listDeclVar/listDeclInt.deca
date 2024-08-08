@@ -1,0 +1,39 @@
+// Description:
+//    test parser for list of interger declaration.
+//
+// Resultats:
+//   `> [37, 0] Program
+//     +> ListDeclClass [List with 0 elements]
+//     `> [37, 0] Main
+//        +> ListDeclVar [List with 5 elements]
+//        |  []> [38, 8] DeclVar
+//        |  ||  +> [38, 32] Identifier (int)
+//        |  ||  +> [38, 8] Identifier (a)
+//        |  ||  `> NoInitialization
+//        |  []> [38, 11] DeclVar
+//        |  ||  +> [38, 32] Identifier (int)
+//        |  ||  +> [38, 11] Identifier (b)
+//        |  ||  `> [38, 15] Initialization
+//        |  ||     `> [38, 15] Int (1)
+//        |  []> [38, 18] DeclVar
+//        |  ||  +> [38, 32] Identifier (int)
+//        |  ||  +> [38, 18] Identifier (c)
+//        |  ||  `> [38, 22] Initialization
+//        |  ||     `> [38, 22] Int (2)
+//        |  []> [38, 25] DeclVar
+//        |  ||  +> [38, 32] Identifier (int)
+//        |  ||  +> [38, 25] Identifier (d)
+//        |  ||  `> [38, 29] Initialization
+//        |  ||     `> [38, 29] Int (3)
+//        |  []> [38, 32] DeclVar
+//        |      +> [38, 32] Identifier (int)
+//        |      +> [38, 32] Identifier (e)
+//        |      `> NoInitialization
+//        `> ListInst [List with 0 elements]
+//
+// Historique:
+//    cree le 14/01/3824
+
+{
+    int a, b = 1, c = 2, d = 3, e;
+}

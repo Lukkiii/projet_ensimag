@@ -1,0 +1,35 @@
+// Description:
+//    test parser for binary expression (minus).
+//
+// Resultats:
+//    `> [31, 0] Program
+//       +> ListDeclClass [List with 0 elements]
+//       `> [31, 0] Main
+//          +> ListDeclVar [List with 3 elements]
+//          |  []> [32, 7] DeclVar
+//          |  ||  +> [32, 7] Identifier (float)
+//          |  ||  +> [32, 7] Identifier (x)
+//          |  ||  `> [32, 11] Initialization
+//          |  ||     `> [32, 11] float (1)
+//          |  []> [33, 7] DeclVar
+//          |  ||  +> [33, 7] Identifier (float)
+//          |  ||  +> [33, 7] Identifier (y)
+//          |  ||  `> [33, 11] Initialization
+//          |  ||     `> [33, 11] float (2)
+//          |  []> [34, 7] DeclVar
+//          |      +> [34, 7] Identifier (float)
+//          |      +> [34, 7] Identifier (minus)
+//          |      `> [34, 13] Initialization
+//          |         `> [34, 13] Minus
+//          |            +> [34, 13] Identifier (y)
+//          |            `> [34, 15] Identifier (x)
+//          `> ListInst [List with 0 elements]
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+   float x = 1;
+   float y = 2;
+   float minus = y-x;
+}

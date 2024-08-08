@@ -1,0 +1,15 @@
+// Description:
+//    test parser for decl class.
+//
+// Resultats:
+//    `> [19, 0] Program
+//      +> ListDeclClass [List with 1 elements]
+//      |  []> [19, 6] DeclClass
+//      |      +> [19, 6] Identifier (test)
+//      |      +> Identifier (Object)
+//      `> EmptyMain
+//
+// Historique:
+//    cree le 13/01/2024
+
+class test{}

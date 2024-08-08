@@ -1,0 +1,13 @@
+// Description:
+//    invalid test parser for readFloat.
+//
+// Resultats:
+//    ligne 12 : extraneous input 'a' expecting ')'
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    float a;
+    readFloat(a);
+}

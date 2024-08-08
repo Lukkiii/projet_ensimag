@@ -1,0 +1,29 @@
+// Description:
+//    Programme test si un boolean est donné dans condition: true
+//
+// Resultats:
+//    ok
+//
+// Historique:
+//    cree le 14/01/2024
+
+{	
+	int x = 3;
+
+	if (x == 1) 
+	{
+		print("Salut");
+	}
+	else 
+	{	
+		if(x == 3) {
+			print("ok");
+
+		}
+		else
+		{
+			print("yoyo");
+		}
+	}
+	
+}

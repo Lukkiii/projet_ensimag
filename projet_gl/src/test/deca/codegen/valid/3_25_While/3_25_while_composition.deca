@@ -1,0 +1,27 @@
+// Description:
+//    Programme test si un boolean est donné dans condition: true
+//
+// Resultats:
+//    3232ok
+//
+// Historique:
+//    cree le 14/01/2024
+
+{
+	int i = 0;
+
+	int j;
+
+	while (i < 2)
+	{
+		i = i+1;
+		j = 3;
+		while (j > 1)
+		{
+				print(j);
+				j = j-1;        
+		}
+	}
+
+	print("ok");
+}

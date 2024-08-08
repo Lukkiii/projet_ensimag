@@ -1,0 +1,27 @@
+// Description:
+//    test parser for integer list declaration.
+//
+// Resultats:
+//    `> [24, 0] Program
+//       +> ListDeclClass [List with 0 elements]
+//       `> [24, 0] Main
+//          +> ListDeclVar [List with 2 elements]
+//          |  []> [25, 8] DeclVar
+//          |  ||  +> [25, 8] Identifier (int)
+//          |  ||  +> [25, 8] Identifier (test)
+//          |  ||  `> [25, 15] Initialization
+//          |  ||     `> [25, 15] Int (1)
+//          |  []> [26, 8] DeclVar
+//          |      +> [26, 8] Identifier (int)
+//          |      +> [26, 8] Identifier (test2)
+//          |      `> [26, 16] Initialization
+//          |         `> [26, 16] Int (2)
+//          `> ListInst [List with 0 elements]
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    int test = 1;
+    int test2 = 2;
+}

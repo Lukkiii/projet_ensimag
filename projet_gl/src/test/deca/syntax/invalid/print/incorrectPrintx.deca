@@ -1,0 +1,13 @@
+// Description:
+//    test parser for printx.
+//
+// Resultats:
+//    ligne 12 : no viable alternative at input 'printx'
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    boolean test = true
+    printx(test;);
+}

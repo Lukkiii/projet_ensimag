@@ -1,0 +1,13 @@
+// Description:
+//    test lexer for asm.
+//
+// Resultats:
+//    ASM: [@0,265:267='asm',<1>,13:0]
+//    OPARENT: [@1,268:268='(',<32>,13:3]
+//    CPARENT: [@2,269:269=')',<33>,13:4]
+//    SEMI: [@3,270:270=';',<37>,13:5]
+//
+// Historique:
+//    cree le 09/01/2024
+
+asm();

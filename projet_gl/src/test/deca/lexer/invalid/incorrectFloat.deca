@@ -1,0 +1,13 @@
+// Description:
+//    test lexer invalid for floats.
+//
+// Resultats:
+//    INT: [@0,246:246='6',<44>,13:0]
+//    DOT: [@1,247:247='.',<30>,13:1]
+//    INFO: line=13  token recognition error at: '\'
+//
+//
+// Historique:
+//    cree le 10/01/2024
+
+6.\

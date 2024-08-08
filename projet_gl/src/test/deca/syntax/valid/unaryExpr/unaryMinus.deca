@@ -1,0 +1,25 @@
+// Description:
+//    test parser for UnaryMinus.
+//
+// Resultats:
+//    `> [22, 0] Program
+//       +> ListDeclClass [List with 0 elements]
+//       `> [22, 0] Main
+//          +> ListDeclVar [List with 1 elements]
+//          |  []> [23, 8] DeclVar
+//          |      +> [23, 8] Identifier (int)
+//          |      +> [23, 8] Identifier (a)
+//          |      `> NoInitialization
+//          `> ListInst [List with 1 elements]
+//             []> [24, 4] Assign
+//                 +> [24, 4] Identifier (a)
+//                 `> [24, 8] UnaryMinus
+//                    `> [24, 9] Int (1)
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    int a;
+    a = -1;
+}

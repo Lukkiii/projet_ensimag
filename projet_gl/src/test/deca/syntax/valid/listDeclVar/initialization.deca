@@ -1,0 +1,47 @@
+// Description:
+//    test parser for Initialization.
+//
+// Resultats:
+//   `> [43, 0] Program
+//     +> ListDeclClass [List with 0 elements]
+//     `> [44, 0] Main
+//       +> ListDeclVar [List with 7 elements]
+//       |  []> [44, 8] DeclVar
+//       |  ||  +> [44, 14] Identifier (int)
+//       |  ||  +> [44, 8] Identifier (x)
+//       |  ||  `> NoInitialization
+//       |  []> [44, 11] DeclVar
+//       |  ||  +> [44, 14] Identifier (int)
+//       |  ||  +> [44, 11] Identifier (y)
+//       |  ||  `> NoInitialization
+//       |  []> [44, 14] DeclVar
+//       |  ||  +> [44, 14] Identifier (int)
+//       |  ||  +> [44, 14] Identifier (z)
+//       |  ||  `> NoInitialization
+//       |  []> [45, 10] DeclVar
+//       |  ||  +> [45, 13] Identifier (float)
+//       |  ||  +> [45, 10] Identifier (a)
+//       |  ||  `> NoInitialization
+//       |  []> [45, 13] DeclVar
+//       |  ||  +> [45, 13] Identifier (float)
+//       |  ||  +> [45, 13] Identifier (b)
+//       |  ||  `> NoInitialization
+//       |  []> [46, 12] DeclVar
+//       |  ||  +> [46, 15] Identifier (boolean)
+//       |  ||  +> [46, 12] Identifier (t)
+//       |  ||  `> NoInitialization
+//       |  []> [46, 15] DeclVar
+//       |      +> [46, 15] Identifier (boolean)
+//       |      +> [46, 15] Identifier (f)
+//       |      `> NoInitialization
+//       `> ListInst [List with 0 elements]
+//
+//
+// Historique:
+//    cree le 11/01/2024
+
+{
+    int x, y, z;
+    float a, b;
+    boolean t, f;
+}

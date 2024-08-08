@@ -1,0 +1,13 @@
+// Description:
+//    invalid test parser for integer list declaration.
+//
+// Resultats:
+//    ligne 12 : missing IDENT at '='
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    int test = 1;
+    int test2, = 2;
+}

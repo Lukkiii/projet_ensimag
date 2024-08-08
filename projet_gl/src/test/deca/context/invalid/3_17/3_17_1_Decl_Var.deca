@@ -1,0 +1,12 @@
+// Description:
+//    Problème de déclaration de variable de type void
+//
+// Resultats:
+//    Ligne 11: Variable type should not be void.
+// 
+// Historique:
+//    cree le 09/01/2024
+
+{   
+   void var1;
+}

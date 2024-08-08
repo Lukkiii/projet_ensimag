@@ -1,0 +1,13 @@
+// Description:
+//    Input/Output error
+//
+// Resultats:
+//    Error : Input/Output error
+// 
+// Historique:
+//    cree le 09/01/2024
+
+{
+    readInt();
+}
+

@@ -1,0 +1,15 @@
+// Description:
+//    Problème de déclaration de champ déclaré dans le superclass mais pas comme champ
+//
+// Resultats:
+//    Ligne 14: 
+// 
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    void getX() {}
+}
+class B extends A {
+    int getX;
+}

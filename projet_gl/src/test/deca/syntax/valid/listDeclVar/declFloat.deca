@@ -1,0 +1,21 @@
+// Description:
+//    test parser for float declaration.
+//
+// Resultats:
+//   `> [19, 0] Program
+//     +> ListDeclClass [List with 0 elements]
+//     `> [19, 0] Main
+//       +> ListDeclVar [List with 1 elements]
+//       |  []> [20, 10] DeclVar
+//       |      +> [20, 10] Identifier (float)
+//       |      +> [20, 10] Identifier (a)
+//       |      `> Initialization
+//       |         `> [20, 14] Float (1.1)
+//       `> ListInst [List with 0 elements]
+//
+// Historique:
+//    cree le 11/01/2024
+
+{
+    float a = 1.1;
+}

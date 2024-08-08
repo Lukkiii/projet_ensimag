@@ -1,0 +1,39 @@
+// Description:
+//    test parser for list of float declaration.
+//
+// Resultats:
+//   `> [37, 0] Program
+//     +> ListDeclClass [List with 0 elements]
+//     `> [37, 0] Main
+//        +> ListDeclVar [List with 5 elements]
+//        |  []> [38, 10] DeclVar
+//        |  ||  +> [38, 40] Identifier (float)
+//        |  ||  +> [38, 10] Identifier (a)
+//        |  ||  `> NoInitialization
+//        |  []> [38, 13] DeclVar
+//        |  ||  +> [38, 40] Identifier (float)
+//        |  ||  +> [38, 13] Identifier (b)
+//        |  ||  `> [38, 17] Initialization
+//        |  ||     `> [38, 17] Float (1.1)
+//        |  []> [38, 22] DeclVar
+//        |  ||  +> [38, 40] Identifier (float)
+//        |  ||  +> [38, 22] Identifier (c)
+//        |  ||  `> [38, 26] Initialization
+//        |  ||     `> [38, 26] Float (2.1)
+//        |  []> [38, 31] DeclVar
+//        |  ||  +> [38, 40] Identifier (float)
+//        |  ||  +> [38, 31] Identifier (d)
+//        |  ||  `> [38, 35] Initialization
+//        |  ||     `> [38, 35] Float (3.1)
+//        |  []> [38, 40] DeclVar
+//        |      +> [38, 40] Identifier (float)
+//        |      +> [38, 40] Identifier (e)
+//        |      `> NoInitialization
+//        `> ListInst [List with 0 elements]
+//
+// Historique:
+//    cree le 14/01/3824
+
+{
+    float a, b = 1.1, c = 2.1, d = 3.1, e;
+}

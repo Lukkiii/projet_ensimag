@@ -1,0 +1,21 @@
+// Description:
+//    selection
+//
+// Resultats:
+//    2
+//
+// Historique:
+//    cree le 18/01/2024
+
+class A {
+    int a;
+    int b;
+}
+
+{
+    A test1 = new A();
+    test1.a = 1;
+    test1.b = 2;
+
+    println(test1.a*test1.b);
+}

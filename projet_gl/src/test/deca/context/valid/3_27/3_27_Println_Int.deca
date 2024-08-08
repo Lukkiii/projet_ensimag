@@ -1,0 +1,12 @@
+// Description:
+//    Programme println d'un int
+//
+// Resultats:
+//    3
+//
+// Historique:
+//    cree le 29/12/2023
+
+{
+        println(3);
+}

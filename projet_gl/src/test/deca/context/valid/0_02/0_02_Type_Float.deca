@@ -1,0 +1,11 @@
+// Description:
+//    Programme test si l'identifier type float est bien déclaré
+//
+// Resultats:
+//
+// Historique:
+//    cree le 09/01/2024
+
+{
+        float a;
+}

@@ -1,0 +1,11 @@
+// Description:
+//    Programme test pour déclaration des paramètres
+//
+// Resultats:
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int fieldOne(int param1, float param2, boolean param3) {}
+}

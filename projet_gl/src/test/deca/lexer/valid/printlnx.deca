@@ -1,0 +1,13 @@
+// Description:
+//    test lexer for printlnx.
+//
+// Resultats:
+//    PRINTLNX: [@0,282:289='printlnx',<7>,13:0]
+//    OPARENT: [@1,290:290='(',<32>,13:8]
+//    IDENT: [@2,291:291='a',<21>,13:9]
+//    CPARENT: [@3,292:292=')',<33>,13:10]
+//
+// Historique:
+//    cree le 10/01/2024
+
+printlnx(a)

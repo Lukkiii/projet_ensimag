@@ -1,0 +1,21 @@
+// Description:
+//    Programme minimaliste faisant un New
+//
+// Resultats:
+//    9
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int x1;
+    int y;
+}
+
+{
+    A a = new A();
+    a.x1 = 9;
+    a.y;
+
+    println(a.x1);
+}

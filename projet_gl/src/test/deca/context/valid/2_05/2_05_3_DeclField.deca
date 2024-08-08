@@ -1,0 +1,15 @@
+// Description:
+//    Programme test si un champ identifier déclaré dans un autre class peut être redéclaré
+//
+// Resultats:
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int fieldOne() {}
+}
+
+class B {
+    int fieldOne;
+}

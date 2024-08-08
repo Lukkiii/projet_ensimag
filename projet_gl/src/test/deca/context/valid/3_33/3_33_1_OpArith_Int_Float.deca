@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste faisant des opérations arithmétiques entre un integer et un float
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        int a = 3;
+        float pi = 3.14;
+        a + pi;
+        12 + 5.62;
+}

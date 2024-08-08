@@ -1,0 +1,18 @@
+// Description:
+//    Problème de type retourné par identifier qui doit être un method
+//
+// Resultats:
+//    Ligne 12: Type error: not a method
+//
+// Historique:
+//    cree le 19/01/2024
+
+class A {
+    int x;
+    boolean y(){}
+}
+
+{
+    A a = new A();
+    a.x();
+}

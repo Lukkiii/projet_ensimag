@@ -1,0 +1,33 @@
+// Description:
+//    test parser for binary expression (==).
+//
+// Resultats:
+//    `> [29, 0] Program
+//      +> ListDeclClass [List with 0 elements]
+//      `> [29, 0] Main
+//         +> ListDeclVar [List with 2 elements]
+//         |  []> [30, 7] DeclVar
+//         |  ||  +> [30, 7] Identifier (float)
+//         |  ||  +> [30, 7] Identifier (a)
+//         |  ||  `> [30, 11] Initialization
+//         |  ||     `> [30, 11] float (1.1)
+//         |  []> [31, 7] DeclVar
+//         |      +> [31, 7] Identifier (float)
+//         |      +> [31, 7] Identifier (b)
+//         |      `> [31, 11] Initialization
+//         |         `> [31, 11] float (1.1)
+//         `> ListInst [List with 1 elements]
+//            []> [20, 3] Prfloat
+//                `> ListExpr [List with 1 elements]
+//                   []> [20, 9] Equals
+//                       +> [20, 9] Identifier (a)
+//                       `> [20, 12] Identifier (b)
+//
+// Historique:
+//    cree le 14/01/2024
+
+{
+   float a = 1.1;
+   float b = 1.1;
+   print(a==b);
+}

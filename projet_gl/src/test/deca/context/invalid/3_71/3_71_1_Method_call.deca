@@ -1,0 +1,13 @@
+// Description:
+//    Problème de l'appel de methode d'un identificateur non-classe
+//
+// Resultats:
+//    Ligne 13: Type error: should be a class type
+//
+// Historique:
+//    cree le 19/01/2024
+
+{
+    int a;
+    a.method;    
+}

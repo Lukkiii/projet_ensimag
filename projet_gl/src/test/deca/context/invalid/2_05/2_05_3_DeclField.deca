@@ -1,0 +1,13 @@
+// Description:
+//    Problème de redéclaration de champ
+//
+// Resultats:
+//    Ligne 14: 
+// 
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int fieldOne;
+    boolean fieldOne;
+}

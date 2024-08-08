@@ -1,0 +1,11 @@
+// programme correct
+{
+   float f ; 
+
+   f = readInt() ; 
+   if (f == 42.0) {
+	println ("yes!") ;
+   }
+}
+
+   

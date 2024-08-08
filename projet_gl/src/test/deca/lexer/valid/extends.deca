@@ -1,0 +1,21 @@
+// Description:
+//    test lexer for the extends.
+//
+// Resultats:
+//    CLASS: [@0,546:550='class',<5>,19:0]
+//    IDENT: [@1,552:556='Test1',<21>,19:6]
+//    OBRACE: [@2,557:557='{',<34>,19:11]
+//    CBRACE: [@3,558:558='}',<35>,19:12]
+//    CLASS: [@4,561:565='class',<5>,21:0]
+//    IDENT: [@5,567:571='Test2',<21>,21:6]
+//    EXTENDS: [@6,573:579='extends',<9>,21:12]
+//    IDENT: [@7,581:585='Test1',<21>,21:20]
+//    OBRACE: [@8,586:586='{',<34>,21:25]
+//    CBRACE: [@9,587:587='}',<35>,21:26]
+//
+// Historique:
+//    cree le 09/01/2024
+
+class Test1{}
+
+class Test2 extends Test1{}

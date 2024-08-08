@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste faisant un not
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 24/12/2023
+
+{
+        boolean a;
+        !a;
+}

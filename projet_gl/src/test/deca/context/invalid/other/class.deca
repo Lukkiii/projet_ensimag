@@ -1,0 +1,18 @@
+// Description:
+//    Programme test si l'identifier non déclaré est détecté
+//
+// Resultats:
+//    Ligne 10: Superclass: A is not declared in Environment Type
+// 
+// Historique:
+//    cree le 09/01/2024
+
+class B extends A {
+
+}
+
+class A {
+
+}
+{
+}

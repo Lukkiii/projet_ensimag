@@ -1,0 +1,13 @@
+// Description:
+//    test lexer for println.
+//
+// Resultats:
+//    PRINTLN: [@0,278:284='println',<3>,13:0]
+//    OPARENT: [@1,285:285='(',<32>,13:7]
+//    IDENT: [@2,286:286='a',<21>,13:8]
+//    CPARENT: [@3,287:287=')',<33>,13:9]
+//
+// Historique:
+//    cree le 10/01/2024
+
+println(a)

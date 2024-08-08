@@ -1,0 +1,12 @@
+// Description:
+//    Programme test si le Rvalue donne un type attendu: Float
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 09/01/2024
+
+{
+        float b = 1.336274;
+}

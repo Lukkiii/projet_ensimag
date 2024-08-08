@@ -1,0 +1,13 @@
+// Description:
+//   invalid test parser for float declaration.
+//
+// Resultats:
+//   ligne 12 : mismatched input ';' expecting {'true', 'new', 'null', 'readInt', 'false', 'readFloat', 'this', IDENT, '-', '(', '!', INT, FLOAT, STRING}
+//
+// Historique:
+//    cree le 11/01/2024
+
+{
+    float a = 1.1;
+    float b = ;
+}

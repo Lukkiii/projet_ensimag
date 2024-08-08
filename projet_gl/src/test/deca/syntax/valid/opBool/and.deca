@@ -1,0 +1,19 @@
+// Description:
+//    test parser for binary expression (and).
+//
+// Resultats:
+//    `> [17, 0] Program
+//       +> ListDeclClass [List with 0 elements]
+//       `> [17, 0] Main
+//          +> ListDeclVar [List with 0 elements]
+//          `> ListInst [List with 1 elements]
+//             []> [18, 3] And
+//                 +> [18, 3] Identifier (x)
+//                 `> [18, 8] Identifier (y)
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+   x && y;
+}

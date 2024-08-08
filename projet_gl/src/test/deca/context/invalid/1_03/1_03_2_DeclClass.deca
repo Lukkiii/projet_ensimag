@@ -1,0 +1,12 @@
+// Description:
+//    Problème d'opération partielle env_types(super)
+//
+// Resultats:
+//    Ligne 11: Superclass: int is not of type Class
+// 
+// Historique:
+//    cree le 17/01/2024
+
+class A extends int {
+
+}

@@ -1,0 +1,15 @@
+class A extends Object {
+}
+
+class B extends A {
+}
+
+{
+	A classA = new B();
+
+	B classB = new B();
+
+	C c;
+
+	c = (A) (classB);
+}

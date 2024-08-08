@@ -1,0 +1,21 @@
+// Description:
+//    test parser for null literal.
+//
+// Resultats:
+//    `> [19, 0] Program
+//       +> ListDeclClass [List with 0 elements]
+//       `> [19, 0] Main
+//          +> ListDeclVar [List with 1 elements]
+//          |  []> [20, 8] DeclVar
+//          |      +> [20, 8] Identifier (int)
+//          |      +> [20, 8] Identifier (x)
+//          |      `> [20, 12] Initialization
+//          |         `> [20, 12] Null
+//          `> ListInst [List with 0 elements]
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    int x = null;
+}

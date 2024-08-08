@@ -1,0 +1,27 @@
+// Description:
+//    test parser for float list declaration.
+//
+// Resultats:
+//    `> [24, 0] Program
+//       +> ListDeclClass [List with 0 elements]
+//       `> [24, 0] Main
+//          +> ListDeclVar [List with 2 elements]
+//          |  []> [25, 10] DeclVar
+//          |  ||  +> [25, 10] Identifier (float)
+//          |  ||  +> [25, 10] Identifier (test)
+//          |  ||  `> [25, 17] Initialization
+//          |  ||     `> [25, 17] Float (1.9)
+//          |  []> [26, 10] DeclVar
+//          |      +> [26, 10] Identifier (float)
+//          |      +> [26, 10] Identifier (test2)
+//          |      `> [26, 18] Initialization
+//          |         `> [26, 18] Float (2.9)
+//          `> ListInst [List with 0 elements]
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    float test = 1.9;
+    float test2 = 2.9;
+}

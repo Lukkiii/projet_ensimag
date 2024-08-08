@@ -1,0 +1,17 @@
+// Description:
+//    test parser for readInt.
+//
+// Resultats:
+//    `> [15, 0] Program
+//       +> ListDeclClass [List with 0 elements]
+//       `> [15, 0] Main
+//          +> ListDeclVar [List with 0 elements]
+//          `> ListInst [List with 1 elements]
+//             []> [16, 4] ReadInt
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    readInt();
+}

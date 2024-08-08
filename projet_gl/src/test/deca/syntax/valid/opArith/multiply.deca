@@ -1,0 +1,35 @@
+// Description:
+//    test parser for binary expression (multiply).
+//
+// Resultats:
+//    `> [31, 0] Program
+//       +> ListDeclClass [List with 0 elements]
+//       `> [31, 0] Main
+//          +> ListDeclVar [List with 3 elements]
+//          |  []> [32, 7] DeclVar
+//          |  ||  +> [32, 7] Identifier (int)
+//          |  ||  +> [32, 7] Identifier (x)
+//          |  ||  `> [32, 11] Initialization
+//          |  ||     `> [32, 11] Int (1)
+//          |  []> [33, 7] DeclVar
+//          |  ||  +> [33, 7] Identifier (int)
+//          |  ||  +> [33, 7] Identifier (y)
+//          |  ||  `> [33, 11] Initialization
+//          |  ||     `> [33, 11] Int (2)
+//          |  []> [34, 7] DeclVar
+//          |      +> [34, 7] Identifier (int)
+//          |      +> [34, 7] Identifier (mul)
+//          |      `> [34, 13] Initialization
+//          |         `> [34, 13] Multiply
+//          |            +> [34, 13] Identifier (y)
+//          |            `> [34, 15] Identifier (x)
+//          `> ListInst [List with 0 elements]
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+   int x = 1;
+   int y = 2;
+   int mul = y*x;
+}

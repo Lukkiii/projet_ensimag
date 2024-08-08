@@ -1,0 +1,19 @@
+// Description:
+//    Programme minimaliste faisant des opérations arithmétiques entre un integer et un float
+//
+// Resultats:
+//    1.05000e+01
+//    2.20000e+01
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        int a = 3;
+        float pi = 3.5;
+        float b = a * pi;
+        float c = 12 + 5.5 + (3.0 * 1.5);
+
+        println(b);
+        println(c);
+}

@@ -1,0 +1,16 @@
+// Description:
+//    Programme faisant des assignations: Int
+// 
+// Resultats:
+//    1
+//
+// Historique:
+//    cree le 24/12/2023
+
+{
+        boolean a = true;
+        boolean b = false;
+        b = a;
+
+        print(b);
+}

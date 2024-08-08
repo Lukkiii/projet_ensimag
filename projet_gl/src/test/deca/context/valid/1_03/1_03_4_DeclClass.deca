@@ -1,0 +1,17 @@
+// Description:
+//    Programme test si l'on peut créer des class dans des class
+//
+// Resultats:
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {}
+class B {
+    A a = new A();
+}
+
+{
+    B b = new B();
+    A a = b.a;
+}

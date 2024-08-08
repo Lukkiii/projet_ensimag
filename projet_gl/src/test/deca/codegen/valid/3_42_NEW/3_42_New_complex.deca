@@ -1,0 +1,57 @@
+// Description:
+//    Programme minimaliste faisant un New dans une class
+//
+// Resultats:
+//    2
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+	int a = 4;
+	int b;
+	float c = 0x1.8p1;
+	float d;
+	boolean t = true;
+	boolean f;
+	int getA(){
+		return this.a;
+	}
+
+	void setB(int x){
+		this.b = x;
+	}
+
+	float getC(){
+		return c;
+	}
+
+}
+
+class B extends A {
+	int a = 2;
+
+	boolean equals(Object obj){
+		return true;
+	}
+
+	int test(){
+		return 3;
+	}
+
+}
+
+class C extends B {
+    int w = 4;
+}
+
+{
+	A classA = new A();
+
+	B classB = new B();
+
+	C classC = new C();
+
+    println(classC.a);
+}
+

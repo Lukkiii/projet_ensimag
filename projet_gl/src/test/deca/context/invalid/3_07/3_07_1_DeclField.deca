@@ -1,0 +1,12 @@
+// Description:
+//    problem in Decl Field : not the same type
+//
+// Resultats:
+//    ligne 11 : Expected type: int but returned type: float
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int field1 = 1.1;
+}

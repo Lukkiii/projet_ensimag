@@ -1,0 +1,13 @@
+//    Programme minimaliste faisant un calcul du moins unitaire: Float
+//
+// Resultats:
+//    4.20000e+00
+//
+// Historique:
+//    cree le 24/12/2023
+
+{
+        float b = --4.2;
+
+        println(b);
+}

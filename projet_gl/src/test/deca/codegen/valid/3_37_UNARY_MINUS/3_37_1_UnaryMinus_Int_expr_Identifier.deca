@@ -1,0 +1,14 @@
+//    Programme minimaliste faisant un calcul du moins unitaire: Float
+//
+// Resultats:
+//    -7
+//
+// Historique:
+//    cree le 24/12/2023
+
+{       
+        int a = 4 + 3;
+        int b = -a;
+
+        println(b);
+}

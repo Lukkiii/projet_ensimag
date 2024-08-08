@@ -1,0 +1,17 @@
+// Description:
+//    Problème de déclaration de paramètre de type void
+//
+// Resultats:
+//    Ligne 16: Error : Missing parameters
+// 
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int fieldOne(int param1, boolean param2, boolean param3){}
+}
+
+{
+    A a = new A();
+    a.fieldOne();
+}

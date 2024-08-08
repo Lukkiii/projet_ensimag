@@ -1,0 +1,10 @@
+// Description:
+//    test lexer invalid for string.
+//
+// Resultats:
+//    line=10 token recognition error at: '"this is an incorrect string.'
+//
+// Historique:
+//    cree le 10/01/2024
+
+"this is an incorrect string.

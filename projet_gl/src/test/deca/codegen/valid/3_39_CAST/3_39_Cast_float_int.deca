@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste faisant un Cast
+//
+// Resultats:
+//    5.00000e+00
+//
+// Historique:
+//    cree le 17/01/2024
+
+
+{
+    float a = (float)(5);
+
+    print(a);
+}

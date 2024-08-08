@@ -1,0 +1,14 @@
+// Description:
+//    Programme minimaliste faisant des opérations booléenne: And
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        boolean a = true;
+        boolean b = false;
+        a && b;
+}

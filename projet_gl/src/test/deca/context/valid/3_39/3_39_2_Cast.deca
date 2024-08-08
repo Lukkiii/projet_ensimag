@@ -1,0 +1,20 @@
+// Description:
+//    Programme faisant un Cast avec retourne type de float et int
+//
+// Resultats:
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int x = 2;
+    int getX(){
+        return x;
+    }
+}
+
+{
+    float n = 1.33;
+    A a = new A();
+    float somme = n + a.getX();
+}

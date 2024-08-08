@@ -1,0 +1,16 @@
+// Description:
+//    Problème d'accéder au champ protected
+//
+// Resultats:
+//
+// Historique:
+//    cree le 19/01/2024
+
+class A {
+    protected int a;
+}
+
+{
+    A a = new A();
+    a.a;
+}

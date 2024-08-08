@@ -1,0 +1,13 @@
+// Description:
+//    Programme test si l'on peut déclarer des champs
+//
+// Resultats:
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int fieldOne;
+    float fieldTwo;
+    boolean fieldThree;
+}

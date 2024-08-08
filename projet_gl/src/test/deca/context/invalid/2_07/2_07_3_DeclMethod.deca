@@ -1,0 +1,13 @@
+// Description:
+//    Problème de redéclaration de methode
+//
+// Resultats:
+//    Ligne 11: Method identifier declared in superclass and not declared as method type
+// 
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int fieldOne() {}
+    float fieldOne() {}
+}

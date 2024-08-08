@@ -1,0 +1,20 @@
+// Description:
+//    Programme minimaliste faisant des opérations de comparaison des integers
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        int a = 3;
+        int b = 4;
+
+        a < b;
+        a <= b;
+        a > b;
+        a >= b;
+        a == b;
+        a != b;
+}

@@ -1,0 +1,16 @@
+// Description:
+//    Programme minimaliste faisant des opérations arithmétiques entre floats
+//
+// Resultats:
+//    4.54000e+00
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        float c = 1.4;
+        float pi = 3.14;
+        float a = c + pi;
+
+        println(a);
+}

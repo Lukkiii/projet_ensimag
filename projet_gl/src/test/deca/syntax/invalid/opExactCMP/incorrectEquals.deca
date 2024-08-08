@@ -1,0 +1,12 @@
+// Description:
+//    invalid test parser for binary expression (==).
+//
+// Resultats:
+//    ligne 12 : no viable alternative at input '}'
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+   x == y
+}

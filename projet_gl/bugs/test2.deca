@@ -1,0 +1,11 @@
+// comparer avec le programme decompile
+
+{
+	int x = 0;
+	(x = x) + 3;
+	if (x == 0) {
+		println ("ok");
+	} else {
+		println ("ko");
+	}
+}

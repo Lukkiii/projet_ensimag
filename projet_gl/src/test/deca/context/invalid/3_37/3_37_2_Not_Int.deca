@@ -1,0 +1,15 @@
+// Description:
+//    Problème de typage, il ne faut soit un boolean
+//
+// Resultats:
+//    Ligne 15: The type is not boolean
+// 
+// Historique:
+//    cree le 29/12/2023
+
+{
+   int a;
+
+   // Doit etre refuse.
+   !a;
+}

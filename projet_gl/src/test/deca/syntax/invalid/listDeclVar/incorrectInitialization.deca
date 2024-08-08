@@ -1,0 +1,15 @@
+// Description:
+//    invalid test parser for Initialization.
+//
+// Resultats:
+//   ligne 12 : extraneous input ',' expecting IDENT
+//
+//
+// Historique:
+//    cree le 11/01/2024
+
+{
+    int x, , z;
+    float a, b;
+    boolean t, f;
+}

@@ -1,0 +1,5 @@
+// Affichage en flottant de la moitie du carré d'un entier
+{
+    int x;
+    println(0.5*(x*x));
+}

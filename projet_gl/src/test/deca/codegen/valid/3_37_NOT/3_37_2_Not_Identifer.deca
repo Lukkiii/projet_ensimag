@@ -1,0 +1,17 @@
+// Description:
+//    Programme minimaliste faisant un not avec un identifer
+//
+// Resultats:
+//    0
+//
+// Historique:
+//    cree le 24/12/2023
+
+{
+    boolean a = true;
+    boolean b = true;
+    
+    b = !a;
+
+    println(b);
+}

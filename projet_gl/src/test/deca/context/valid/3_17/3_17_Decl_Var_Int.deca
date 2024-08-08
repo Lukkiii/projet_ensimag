@@ -1,0 +1,11 @@
+// Description:
+//    Programme déclaration de variable de type int
+//
+// Resultats:
+//
+// Historique:
+//    cree le 09/01/2024
+
+{
+        int var1;
+}

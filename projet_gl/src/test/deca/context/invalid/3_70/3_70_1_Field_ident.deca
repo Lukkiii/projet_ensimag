@@ -1,0 +1,18 @@
+// Description:
+//    Problème de type retourné par identifier qui doit être un field
+//
+// Resultats:
+//    Ligne 17: Type error: should be a field
+//
+// Historique:
+//    cree le 19/01/2024
+
+class A {
+    int x;
+    int method(){}
+}
+
+{
+    A a = new A();
+    a.method;    
+}

@@ -1,0 +1,12 @@
+// Description:
+//    Programme test si l'identifier type non déclaré est détecté
+//
+// Resultats:
+//    Ligne 11: No definition for this type identifier: string
+// 
+// Historique:
+//    cree le 09/01/2024
+
+{   
+   string a;
+}

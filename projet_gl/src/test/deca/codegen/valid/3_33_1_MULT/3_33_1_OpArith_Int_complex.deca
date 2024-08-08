@@ -1,0 +1,14 @@
+// Description:
+//    Programme minimaliste faisant des opérations arithmétiques entre un integer et un integer
+//
+// Resultats:
+//    59
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        int d = 3 + 14 * (1 * 4);
+
+        println(d);
+}

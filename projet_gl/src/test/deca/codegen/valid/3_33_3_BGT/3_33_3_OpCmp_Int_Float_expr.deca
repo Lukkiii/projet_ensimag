@@ -1,0 +1,14 @@
+// Description:
+//    Programme minimaliste faisant des opérations de comparaison des integers et floats
+//
+// Resultats:
+//    0
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        boolean b = -3 >  (10 * 3.14);
+
+        println(b);
+}

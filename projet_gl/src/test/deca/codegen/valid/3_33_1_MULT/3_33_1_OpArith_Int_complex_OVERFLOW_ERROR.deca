@@ -1,0 +1,13 @@
+// Description:
+//    Erreur Overflow
+// Resultats:
+//    Error : Overflow during arithmetic operation
+//
+// Historique:
+//    cree le 17/01/2024
+
+{
+        int b = 1000000 * (-1000000 - 40000000);
+
+        println(b);
+}

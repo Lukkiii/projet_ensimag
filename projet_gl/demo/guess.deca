@@ -1,0 +1,25 @@
+{
+	int secret_number = 1080;
+	int i = 1;
+	int input;
+
+	print("(", i, ") - " , "Entrez une valeur: ");
+	input = readInt();
+	i = i + 1;
+
+	while (input != secret_number) {
+		if (input > secret_number) {
+			print(input, " > SECRET_NUMBER");
+			println("");
+		} else if (input < secret_number) {
+			print(input, " < SECRET_NUMBER");
+			println("");
+		}
+
+		print("(", i, ") - " , "Entrez une valeur: ");
+		input = readInt();
+		i = i +1;	
+	}
+
+	println("Bravo vous avez trouve le nombre correct!");
+}

@@ -1,0 +1,24 @@
+// Description:
+//    
+//
+// Resultats:
+//    ok
+//
+// Historique:
+//    cree le 19/01/2024
+
+class A{
+    int a;
+    void setA(int a){
+        this.a = a;
+    }
+    int getA(){
+        return this.a;
+    }
+}
+
+{
+    A test = new A();
+    test.setA(1);
+    test.getA();
+}

@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste faisant des opérations arithmétiques entre integers
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        int a = 3;
+        int b = 4;
+        a + b;
+        52 + 47;
+}

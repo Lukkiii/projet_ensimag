@@ -1,0 +1,13 @@
+// Description:
+//    Problème de redéclaration de variable
+//
+// Resultats:
+//    Ligne 12: Variable is redeclared.
+// 
+// Historique:
+//    cree le 09/01/2024
+
+{   
+   int var1;
+   int var1;
+}

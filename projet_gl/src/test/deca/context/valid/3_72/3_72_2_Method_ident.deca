@@ -1,0 +1,18 @@
+// Description:
+//    Programme minimaliste faisant un method_ident avec extend class
+//
+// Resultats:
+//
+// Historique:
+//    cree le 19/01/2024
+
+class A {
+    int x(){}
+}
+
+class B extends A{}
+
+{
+    B b = new B();
+    b.x();
+}

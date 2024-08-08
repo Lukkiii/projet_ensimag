@@ -1,0 +1,21 @@
+// Description:
+//    test parser for string literal.
+//
+// Resultats:
+//    `> [19, 0] Program
+//      +> ListDeclClass [List with 0 elements]
+//      `> [19, 0] Main
+//         +> ListDeclVar [List with 1 elements]
+//         |  []> [20, 11] DeclVar
+//         |      +> [20, 11] Identifier (String)
+//         |      +> [20, 11] Identifier (s)
+//         |      `> [20, 15] Initialization
+//         |         `> [20, 15] StringLiteral (aaa)
+//         `> ListInst [List with 0 elements]
+//
+// Historique:
+//    cree le 14/01/2024
+
+{
+    String s = "aaa";
+}

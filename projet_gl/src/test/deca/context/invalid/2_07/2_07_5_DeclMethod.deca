@@ -1,0 +1,19 @@
+// Description:
+//    Problème de déclaration d'une méthode (avec le même signature) avec le return type n'est pas un sous-type de return type de méthode déclaré dans superclass
+//
+// Resultats:
+//    Ligne 18: Method return type is not compatible with the redeclared method return type
+//
+// Historique:
+//    cree le 17/01/2024
+
+class parent {}
+class child extends parent {}
+
+class A {
+    child fieldOne(int param1, boolean param2, boolean param3, float param4){}
+}
+
+class B extends A {
+    parent fieldOne(int param1, boolean param2, boolean param3, float param4){}
+}

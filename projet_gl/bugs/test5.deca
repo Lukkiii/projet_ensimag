@@ -1,0 +1,6 @@
+// programme correct
+{
+    int x = 2;
+
+    println ("42 == ", (x = x + 2), x = x - 2);
+}

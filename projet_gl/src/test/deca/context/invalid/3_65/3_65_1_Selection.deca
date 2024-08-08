@@ -1,0 +1,12 @@
+// Description:
+//    Problème d'utilisation de Selection pour un non-classe
+//
+// Resultats:
+//    Ligne 11: No definition for this identifier: A
+//
+// Historique:
+//    cree le 19/01/2024
+
+{
+    A.a;
+}

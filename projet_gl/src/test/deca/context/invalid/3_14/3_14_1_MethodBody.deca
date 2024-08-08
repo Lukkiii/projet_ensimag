@@ -1,0 +1,15 @@
+// Description:
+//    problem decl var in mathod body
+//
+// Resultats:
+//    ligne 13 : Variable is redeclared.
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int method1(){
+        int int1 = 1;
+        int int1;
+    }
+}

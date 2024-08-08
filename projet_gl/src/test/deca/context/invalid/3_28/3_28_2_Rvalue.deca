@@ -1,0 +1,12 @@
+// Description:
+//    Problème de Rvalue ne correspond pas au type attendu
+//
+// Resultats:
+//    Ligne 11: Expected type: float but the returned type: boolean
+// 
+// Historique:
+//    cree le 09/01/2024
+
+{   
+   float b = false;
+}

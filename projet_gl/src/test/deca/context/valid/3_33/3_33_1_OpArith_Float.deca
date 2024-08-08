@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste faisant des opérations arithmétiques entre floats
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        float c = 1.4;
+        float pi = 3.14;
+        c + pi;
+        5.36 + 2.369;
+}

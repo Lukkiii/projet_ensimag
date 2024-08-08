@@ -1,0 +1,16 @@
+// Description:
+//    Programme minimaliste faisant un method_ident
+//
+// Resultats:
+//
+// Historique:
+//    cree le 19/01/2024
+
+class A {
+    int x(){}
+}
+
+{
+    A a = new A();
+    a.x();
+}

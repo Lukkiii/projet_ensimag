@@ -1,0 +1,16 @@
+// Description:
+//    Programme minimaliste faisant des opérations arithmétiques entre un integer et un integer
+//
+// Resultats:
+//    15
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        int a = 3;
+        int b = 5;
+        int c = a * b;
+
+        println(c);
+}

@@ -1,0 +1,17 @@
+// Description:
+//    Problème de déclaration de variable de type void
+//
+// Resultats:
+//    Ligne 16: Variable type should not be void.
+// 
+// Historique:
+//    cree le 09/01/2024
+
+class A {
+   void fct() {}
+}
+
+{  
+   A a = new A();
+   print(a.fct());
+}

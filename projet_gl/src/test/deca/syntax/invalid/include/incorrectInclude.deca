@@ -1,0 +1,13 @@
+// Description:
+//    invalid test parser for include.
+//
+// Resultats:
+//    ligne 10 : test.deca: include file not found
+//
+// Historique:
+//    cree le 13/01/2024
+
+#include "test.deca"
+{
+    int a;
+}

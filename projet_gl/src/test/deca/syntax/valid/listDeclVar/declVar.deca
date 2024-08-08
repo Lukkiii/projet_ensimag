@@ -1,0 +1,39 @@
+// Description:
+//    test parser for value declaration.
+//
+// Resultats:
+//   `> [34, 0] Program
+//     +> ListDeclClass [List with 0 elements]
+//     `> [34, 0] Main
+//        +> ListDeclVar [List with 4 elements]
+//        |  []> [35, 8] DeclVar
+//        |  ||  +> [35, 8] Identifier (int)
+//        |  ||  +> [35, 8] Identifier (a)
+//        |  ||  `> [35, 12] Initialization
+//        |  ||     `> [35, 12] Int (1)
+//        |  []> [36, 10] DeclVar
+//        |  ||  +> [36, 10] Identifier (float)
+//        |  ||  +> [36, 10] Identifier (f)
+//        |  ||  `> [36, 14] Initialization
+//        |  ||     `> [36, 14] Float (1.111)
+//        |  []> [37, 12] DeclVar
+//        |  ||  +> [37, 12] Identifier (boolean)
+//        |  ||  +> [37, 12] Identifier (b)
+//        |  ||  `> [37, 16] Initialization
+//        |  ||     `> [37, 16] BooleanLiteral (false)
+//        |  []> [38, 11] DeclVar
+//        |      +> [38, 11] Identifier (String)
+//        |      +> [38, 11] Identifier (s)
+//        |      `> [38, 15] Initialization
+//        |         `> [38, 15] StringLiteral (string)
+//        `> ListInst [List with 0 elements]
+//
+// Historique:
+//    cree le 14/01/3524
+
+{
+    int a = 1;
+    float f = 1.111;
+    boolean b = false;
+    String s = "string";
+}

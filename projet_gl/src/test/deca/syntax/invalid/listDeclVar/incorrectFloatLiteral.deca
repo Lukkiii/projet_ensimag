@@ -1,0 +1,15 @@
+// Description:
+//    invalid test parser for float list declaration.
+//
+// Resultats:
+//    ligne 13 : mismatched input '9' expecting IDENT
+
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    float test = 1.9;
+    float test2 = 2.9;
+    float test3 = 3,9;
+}

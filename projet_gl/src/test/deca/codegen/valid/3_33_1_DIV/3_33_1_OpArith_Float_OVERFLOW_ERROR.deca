@@ -1,0 +1,13 @@
+// Description:
+//    Erreur avec la division par 0.0
+// Resultats:
+//    Error : Overflow during arithmetic operation
+//
+// Historique:
+//    cree le 17/01/2024
+
+{
+        float b = 1.5 / 0.0;
+
+        println(b);
+}

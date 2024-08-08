@@ -1,0 +1,18 @@
+// Description:
+//    Programme minimaliste faisant un New
+//
+// Resultats:
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int x1;
+    int y;
+}
+
+class B extends A{}
+
+{
+    A a = new B();
+}

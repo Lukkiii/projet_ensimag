@@ -1,0 +1,11 @@
+class A extends Object {
+}
+
+class B extends Object {
+}
+
+{
+	A a = new A();
+
+	println((a instanceof B));
+}

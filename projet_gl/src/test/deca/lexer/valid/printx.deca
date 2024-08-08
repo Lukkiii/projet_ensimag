@@ -1,0 +1,13 @@
+// Description:
+//    test lexer for printx.
+//
+// Resultats:
+//    PRINTX: [@0,276:281='printx',<11>,13:0]
+//    OPARENT: [@1,282:282='(',<32>,13:6]
+//    IDENT: [@2,283:283='a',<21>,13:7]
+//    CPARENT: [@3,284:284=')',<33>,13:8]
+//
+// Historique:
+//    cree le 10/01/2024
+
+printx(a)

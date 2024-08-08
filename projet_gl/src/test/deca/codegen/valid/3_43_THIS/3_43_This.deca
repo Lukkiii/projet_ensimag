@@ -1,0 +1,23 @@
+// Description:
+//    Programme minimaliste faisant un This
+//
+// Resultats:
+//    1
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int x;
+    void method(){
+        this.x = 1;
+    }
+}
+
+{
+    A a = new A();
+
+    a.method();
+
+    println(a.x);
+}

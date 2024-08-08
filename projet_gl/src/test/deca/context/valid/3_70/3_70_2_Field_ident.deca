@@ -1,0 +1,22 @@
+// Description:
+//    Programme minimaliste faisant un field_ident avec extends
+//
+// Resultats:
+//
+// Historique:
+//    cree le 19/01/2024
+
+class A {
+    int x;
+    float y;
+    boolean z;
+}
+
+class B extends A{}
+
+{
+    B b = new B();
+    b.x;  
+    b.y;
+    b.z;  
+}

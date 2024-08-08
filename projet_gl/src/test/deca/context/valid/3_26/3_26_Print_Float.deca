@@ -1,0 +1,12 @@
+// Description:
+//    Programme print d'un float
+//
+// Resultats:
+//    3.14
+//
+// Historique:
+//    cree le 29/12/2023
+
+{
+        print(3.14);
+}

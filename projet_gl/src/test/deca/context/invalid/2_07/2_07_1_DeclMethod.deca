@@ -1,0 +1,16 @@
+// Description:
+//    Problème de déclaration de field de type void
+//
+// Resultats:
+//    Ligne 11: Method identifier declared in superclass and not declared as method type
+// 
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int fieldOne;
+}
+
+class B extends A {
+    int fieldOne(){}
+}

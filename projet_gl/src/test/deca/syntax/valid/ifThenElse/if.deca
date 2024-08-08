@@ -1,0 +1,24 @@
+// Description:
+//    test parser for if.
+//
+// Resultats:
+//    `> [20, 0] Program
+//       +> ListDeclClass [List with 0 elements]
+//       `> [20, 0] Main
+//          +> ListDeclVar [List with 0 elements]
+//          `> ListInst [List with 1 elements]
+//             []> [21, 4] IfThenElse
+//                 +> [21, 7] BooleanLiteral (true)
+//                 +> ListInst [List with 1 elements]
+//                 |  []> [22, 8] StringLiteral (ok)
+//                 `> ListInst [List with 1 elements]
+//                    []> NoOperation
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    if(true){
+        "ok";
+    }
+}

@@ -1,0 +1,16 @@
+// Description:
+//    invalid test parser for if else.
+//
+// Resultats:
+//    ligne 15 : no viable alternative at input '}'.
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    if(true){
+        "ok";
+    }else{
+        "ko"
+    }
+}

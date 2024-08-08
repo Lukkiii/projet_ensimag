@@ -1,0 +1,18 @@
+// Description:
+//    Programme minimaliste faisant un selection
+//
+// Resultats:
+//
+// Historique:
+//    cree le 19/01/2024
+
+class A {
+    int a;
+    int b;
+}
+
+{
+    A test1 = new A();
+    test1.a = 1;
+    test1.b = 2;
+}

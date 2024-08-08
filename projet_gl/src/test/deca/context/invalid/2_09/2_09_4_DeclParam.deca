@@ -1,0 +1,18 @@
+// Description:
+//    Problème de déclaration de paramètre de type void
+//
+// Resultats:
+//    Ligne 17: Parameter type error
+// 
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int fieldOne(int param1, boolean param2, boolean param3){}
+}
+
+{
+    A a = new A();
+    boolean bool;
+    a.fieldOne(bool, bool, bool);
+}

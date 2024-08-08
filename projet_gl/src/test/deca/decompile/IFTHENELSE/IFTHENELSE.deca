@@ -1,0 +1,10 @@
+{
+	boolean a = false;
+
+	if ((true && a)) {
+		println("yoyo");
+	} else {
+		println("Salut");
+	}
+
+}

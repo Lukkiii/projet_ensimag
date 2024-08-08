@@ -1,0 +1,13 @@
+// Description:
+//    test lexer for print.
+//
+// Resultats:
+//    PRINT: [@0,273:277='print',<19>,13:0]
+//    OPARENT: [@1,278:278='(',<32>,13:5]
+//    IDENT: [@2,279:279='a',<21>,13:6]
+//    CPARENT: [@3,280:280=')',<33>,13:7]
+//
+// Historique:
+//    cree le 10/01/2024
+
+print(a)

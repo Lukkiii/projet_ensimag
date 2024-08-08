@@ -1,0 +1,11 @@
+; start main program
+; Main program
+; Variables declarations:
+; Beginning of main instructions:
+	LOAD #1, R2
+	PUSH R2
+	POP R1
+	WINT
+	WNL
+	HALT
+; end main program

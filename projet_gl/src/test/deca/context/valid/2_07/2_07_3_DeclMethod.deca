@@ -1,0 +1,15 @@
+// Description:
+//    Programme test si un méthode (avec le même signature et return type) peut être redéclaré dans un sous-class
+//
+// Resultats:
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int fieldOne(int param1, boolean param2, boolean param3, float param4){}
+}
+
+class B extends A {
+    int fieldOne(int param1, boolean param2, boolean param3, float param4){}
+}

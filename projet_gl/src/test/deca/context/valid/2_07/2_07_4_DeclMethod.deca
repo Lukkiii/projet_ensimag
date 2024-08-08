@@ -1,0 +1,18 @@
+// Description:
+//    Programme test si un méthode (avec le même signature) avec le return type un sous-type de return type de méthode déclaré dans superclass peut être redéclaré dans un sous-class
+//
+// Resultats:
+//
+// Historique:
+//    cree le 17/01/2024
+
+class parent {}
+class child extends parent {}
+
+class A {
+    parent fieldOne(int param1, boolean param2, boolean param3, float param4){}
+}
+
+class B extends A {
+    child fieldOne(int param1, boolean param2, boolean param3, float param4){}
+}

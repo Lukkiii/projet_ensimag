@@ -1,0 +1,20 @@
+// Description:
+//    Programme minimaliste faisant des opérations de comparaison des floats
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 22/12/2023
+
+{
+        float c = 1.4;
+        float pi = 3.14;
+
+        c <  pi;
+        c <= pi;
+        c >  pi;
+        c >= pi;
+        c == pi;
+        c != pi;
+}

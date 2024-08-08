@@ -1,0 +1,15 @@
+// Description:
+//    Problème de typage, il ne faut soit un entier soit un float
+//
+// Resultats:
+//    Ligne 15: The type is not int or float
+// 
+// Historique:
+//    cree le 24/12/2023
+
+{
+   boolean a;
+
+   // Doit etre refuse.
+   -a;
+}

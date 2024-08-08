@@ -1,0 +1,19 @@
+// Description:
+//    test parser for printx.
+//
+// Resultats:
+//    `> [17, 0] Program
+//      +> ListDeclClass [List with 0 elements]
+//      `> [17, 0] Main
+//         +> ListDeclVar [List with 0 elements]
+//         `> ListInst [List with 1 elements]
+//            []> [18, 4] Print
+//                `> ListExpr [List with 1 elements]
+//                   []> [18, 11] Int (1)
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    printx(1);
+}

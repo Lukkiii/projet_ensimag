@@ -1,0 +1,30 @@
+// Description:
+//    test parser for cast.
+//
+// Resultats:
+//   `> [26, 0] Program
+//     +> ListDeclClass [List with 0 elements]
+//     `> [26, 0] Main
+//       +> ListDeclVar [List with 2 elements]
+//       |  []> [27, 10] DeclVar
+//       |  ||  +> [27, 10] Identifier (float)
+//       |  ||  +> [27, 10] Identifier (x)
+//       |  ||  `> Initialization
+//       |  ||     `> [27, 14] Float (1.5)
+//       |  []> [28, 8] DeclVar
+//       |      +> [28, 8] Identifier (int)
+//       |      +> [28, 8] Identifier (y)
+//       |      `> Initialization
+//       |         `> [28, 12] Cast
+//       |            +> [28, 13] Identifier (int)
+//       |            `> [28, 18] Identifier (x)
+//       `> ListInst [List with 0 elements]
+//
+// Historique:
+//    cree le 11/01/2024
+
+{
+    float x = 1.5;
+    int y = (int)(x);
+}
+

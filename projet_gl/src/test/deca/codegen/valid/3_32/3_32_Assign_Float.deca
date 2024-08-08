@@ -1,0 +1,16 @@
+// Description:
+//    Programme faisant des assignations: Float
+//
+// Resultats:
+//    3.14000e+00
+//
+// Historique:
+//    cree le 24/12/2023
+
+{
+        float c = 1.4;
+        float pi = 3.14;
+        c = pi;
+
+        print(c);
+}

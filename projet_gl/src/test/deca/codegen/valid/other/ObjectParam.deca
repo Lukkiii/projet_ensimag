@@ -1,0 +1,25 @@
+// Description:
+//    selection
+//
+// Resultats:
+//    7
+//
+// Historique:
+//    cree le 18/01/2024
+
+class A {
+    int x;
+
+    int test(A a) {
+        return a.x;
+    }
+}
+
+{
+    A a = new A();
+
+    A b = new A();
+    b.x = 7; 
+
+    print(a.test(b));
+}

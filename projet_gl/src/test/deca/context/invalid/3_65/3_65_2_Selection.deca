@@ -1,0 +1,13 @@
+// Description:
+//    Problème d'utilisation de Selection pour un non-classe
+//
+// Resultats:
+//    Ligne 12: Type error : should be a class type
+//
+// Historique:
+//    cree le 19/01/2024
+
+{
+    int a;
+    a.b;
+}

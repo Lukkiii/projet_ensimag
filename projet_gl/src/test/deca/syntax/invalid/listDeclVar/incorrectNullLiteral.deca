@@ -1,0 +1,13 @@
+// Description:
+//    invalid test parser for null literal.
+//
+// Resultats:
+//    ligne 13 : no viable alternative at input '}'.
+//
+// Historique:
+//    cree le 12/01/2024
+
+{
+    null;
+    null
+}

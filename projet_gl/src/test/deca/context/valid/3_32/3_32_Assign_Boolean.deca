@@ -1,0 +1,14 @@
+// Description:
+//    Programme faisant des assignations: Boolean
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 24/12/2023
+
+{
+        boolean d = true;
+        boolean e;
+        d = e;
+}

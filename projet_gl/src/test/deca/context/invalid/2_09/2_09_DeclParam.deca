@@ -1,0 +1,12 @@
+// Description:
+//    Problème de déclaration de paramètre de type void
+//
+// Resultats:
+//    Ligne 11: Parameter type should not be void
+// 
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int fieldOne(int param1, boolean param2, boolean param3, void param4){}
+}

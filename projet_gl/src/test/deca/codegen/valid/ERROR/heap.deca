@@ -1,0 +1,13 @@
+// Description:
+//    Overflow
+//
+// Resultats:
+//    Error : Heap Overflow
+// 
+// Historique:
+//    cree le 09/01/2024
+
+class Klass {}
+{
+	while(true){new Klass();}
+}

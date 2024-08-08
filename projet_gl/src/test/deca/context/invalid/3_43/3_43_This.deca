@@ -1,0 +1,12 @@
+// Description:
+//    Problème d'utilisation de This en dehors d'une classe
+//
+// Resultats:
+//    Ligne 11: 'This' method should be inside a class
+//
+// Historique:
+//    cree le 17/01/2024
+
+{
+    this;
+}

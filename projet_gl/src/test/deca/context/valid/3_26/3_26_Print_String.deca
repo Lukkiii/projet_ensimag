@@ -1,0 +1,12 @@
+// Description:
+//    Programme print d'un string
+//
+// Resultats:
+//    Test
+//
+// Historique:
+//    cree le 29/12/2023
+
+{
+        print("Test");
+}

@@ -1,0 +1,25 @@
+// Description:
+//    Programme minimaliste faisant un New dans une class
+//
+// Resultats:
+//    9
+//
+// Historique:
+//    cree le 17/01/2024
+
+class A {
+    int x1 = 3;
+    int y;
+
+    void test() {
+        A a = new A();
+        println(a.x1);
+    }
+}
+
+{
+    A a = new A();
+    a.x1 = 9;
+
+    println(a.x1);
+}
