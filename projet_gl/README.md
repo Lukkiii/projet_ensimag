@@ -1,7 +1,10 @@
 # Projet Génie Logiciel, Ensimag.
 gl41, 01/01/2024.
 
-## ARM
+## Decac
+
+
+## Extension ARM
 ### How to create the environment on Ubuntu
 - `./arm-environment/scripts/ubuntu.sh <dest_dir>` (Deploy ARM environment)
 - `source <dest_dir>/env.sh` (Initialize ARM environment)
