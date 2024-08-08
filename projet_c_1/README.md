@@ -1,6 +1,6 @@
 # Notre encodeur JPEG à nous
 
-Bienvenue sur la page d'accueil de _votre_ projet JPEG, un grand espace de liberté, sous le regard bienveillant de vos enseignants préférés.
+Bienvenue sur la page d'accueil de notre projet JPEG
 Le sujet sera disponible à l'adresse suivante : [https://formationc.pages.ensimag.fr/projet/jpeg/jpeg/](https://formationc.pages.ensimag.fr/projet/jpeg/jpeg/).
 
 
