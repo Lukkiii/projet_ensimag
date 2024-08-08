@@ -10,7 +10,7 @@ avec <fichier deca> des chemins de la forme <répertoires/nom.deca> (le suffix .
 La commande decac, sans argument, affichera les options disponibles. On peut appeler la commande decac avec un ou plusieurs fichiers sources Deca.
 Si un fichier apparaît plusieurs fois sur la ligne de commande, il n’est compilé qu’une seule fois
 Une fois le fichier assembleur généré, il vous suffit d'utiliser la commande "ima" pour l'exécuter.
-
+|                           |                    |                            |
 |---------------------------|--------------------|----------------------------|
 |-b|(banner)|affiche une bannière indiquant le nom de l'équipe|
 |-p|(parse)|arrête decac après l'étape de construction de l'arbre, et affiche la décompilation de ce dernier (i.e. s'il n'y a qu'un fichier source à compiler, la sortie doit être |un programme deca syntaxiquement correct)|
