@@ -11,32 +11,16 @@ La commande decac, sans argument, affichera les options disponibles. On peut app
 Si un fichier apparaît plusieurs fois sur la ligne de commande, il n’est compilé qu’une seule fois
 Une fois le fichier assembleur généré, il vous suffit d'utiliser la commande "ima" pour l'exécuter.
 
--b
-(banner)
-affiche une bannière indiquant le nom de l'équipe
--p
-(parse)
-arrête decac après l'étape de construction de l'arbre, et affiche la décompilation de ce dernier (i.e. s'il n'y a qu'un fichier source à compiler, la sortie doit être un programme deca syntaxiquement correct)
--v
-(verification)
-arrête decac après l'étape de vérifications (ne produit aucune sortie en l'absence d'erreur)
--n
-(no check)
-supprime les tests à l'exécution spécifiés dans les points 11.1 et 11.3 de la sémantique de Deca.
--r X
-(registers)
-limite les registres banalisés disponibles à R0 ... R{X-1}, avec 4 <= X <= 16
--d
-(debug)
-active les traces de debug. Répéter l'option plusieurs fois pour avoir plus de traces.
--P
-(parallel)
-s'il y a plusieurs fichiers sources, lance la compilation des fichiers en parallèle (pour accélérer la compilation)
--arm
-(arm)
-Compilation pour ARM.  
-
-
+|       ENDPOINT            |        GET         |            POST            |
+|---------------------------|--------------------|----------------------------|
+|-b|(banner)|affiche une bannière indiquant le nom de l'équipe|
+|-p|(parse)|arrête decac après l'étape de construction de l'arbre, et affiche la décompilation de ce dernier (i.e. s'il n'y a qu'un fichier source à compiler, la sortie doit être |un programme deca syntaxiquement correct)|
+|-v|(verification)|arrête decac après l'étape de vérifications (ne produit aucune sortie en l'absence d'erreur)|
+|-n|(no check)|supprime les tests à l'exécution spécifiés dans les points 11.1 et 11.3 de la sémantique de Deca|
+|-r X|(registers)|limite les registres banalisés disponibles à R0 ... R{X-1}, avec 4 <= X <= 16|
+|-d|(debug)|active les traces de debug. Répéter l'option plusieurs fois pour avoir plus de traces|
+|-P|(parallel)|s'il y a plusieurs fichiers sources, lance la compilation des fichiers en parallèle (pour accélérer la compilation)|
+|-arm|(arm)|Compilation pour ARM|
 
 ## Extension ARM
 ### How to create the environment on Ubuntu
