@@ -4,7 +4,7 @@ Bienvenue sur la page d'accueil de _votre_ projet JPEG, un grand espace de liber
 Le sujet sera disponible à l'adresse suivante : [https://formationc.pages.ensimag.fr/projet/jpeg/jpeg/](https://formationc.pages.ensimag.fr/projet/jpeg/jpeg/).
 
 
-*Première étape : convertisseur PGM vers JPEG*
+*convertisseur PGM vers JPEG*
 
 *->* choisir une Structure de Données pour les tableaux de pixels
 
