@@ -1,5 +1,7 @@
-Répertoire "racine" du projet.
+(depuis la racine du projet)
 
-Il contient le fichier CMakeLists.txt utilisé par cmake pour construire le projet.
-
-Ne lancez pas cmake directement depuis ce répertoire car cmake génère beaucoup de fichiers. Lancez cmake depuis le répertoire "cmake", ou mieux, construisez votre projet avec CLion (qui s'occupe d'appeler cmake): lisez clion/README.
+cd cmake
+cmake ..
+make minimal
+cd ..
+./cmake/minimal
