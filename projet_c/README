@@ -1,7 +1,23 @@
+Pour tester les résultats, il est nécessaire de exécuter les commandes ci-dessous : 
 (depuis la racine du projet)
-
 cd cmake
 cmake ..
+
+par exemple le test minimal : 
+
 make minimal
 cd ..
 ./cmake/minimal
+
+les autres options : 
+lines 
+frame 
+button 
+hello_world 
+puzzle 
+two048
+minesweeper
+external_class
+toplevel
+
+ou on peut simplement exécuter la commande make all pour tous les tests au-dessus.
